@@ -13,11 +13,13 @@ public class remloopinlinkedlist {
     boolean loopExists = false;
 
     public static void main(String[] args) {
+// 44 49 11 19 41 48
+        Node head = new Node(44);
+        head.next = new Node(49);
+        head.next.next = new Node(11);
+        head.next.next.next = new Node(19);
+        head.next.next.next = new Node(48);
 
-        Node head = new Node(1);
-        head.next = new Node(3);
-        head.next.next = new Node(4);
-        head.next.next.next = head.next;
         remloopinlinkedlist obj = new remloopinlinkedlist();
 
         obj.removeLoop(head);
