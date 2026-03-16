@@ -5,6 +5,7 @@ public class sortarray {
 
         int[] arr = { 1, 5, 3, 2 };
         // Arrays.sort(arr);
+        //Bubble sort 
         // System.out.println(Arrays.toString(arr));
         // int n = arr.length;
         // for (int i = 0; i < n - 1; i++) {
@@ -17,7 +18,7 @@ public class sortarray {
         // }
         // }
         // }
-
+        // selection sort
         for (int i = 0; i < arr.length - 1; i++) {
             int minIndex = i;
             for (int j = i + 1; j < arr.length; j++) {
@@ -30,8 +31,8 @@ public class sortarray {
             arr[i] = temp;
 
         }
-        for(int i : arr){
-            System.out.print(i+",");
+        for (int i : arr) {
+            System.out.print(i + ",");
         }
     }
 }

@@ -6,7 +6,6 @@ public class Stringrev {
         int n = str.length();
         for(int i =n-1;i >= 0;i--){
             newstr +=str.charAt(i);
-            // System.out.println(newstr);
         }
         StringBuilder s = new StringBuilder(str);
         System.out.println(s.reverse().toString());
