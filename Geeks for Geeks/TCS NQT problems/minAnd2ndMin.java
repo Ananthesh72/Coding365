@@ -6,6 +6,7 @@ import java.util.Set;
 public class minAnd2ndMin {
     public static void main(String[] args) {
 
+        int [] arr = {2, 4, 3, 5, 6};
         int first = Integer.MAX_VALUE;
         int second = Integer.MAX_VALUE;
 
@@ -26,7 +27,8 @@ public class minAnd2ndMin {
             result.add(first);
             result.add(second);
         }
-        return result;
+        // return result;
+        System.out.println(result);
 
     }
 }
