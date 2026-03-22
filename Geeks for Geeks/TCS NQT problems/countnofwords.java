@@ -3,7 +3,6 @@ public class countnofwords {
         String s ="a\nhjpfo";
         // String s ="a\nyo\n";
 
-
         String cleaned = s.replace("\\n", " ").replace("\\t", " ");
         String trimmed = cleaned.trim();
         if (trimmed.isEmpty()) {
