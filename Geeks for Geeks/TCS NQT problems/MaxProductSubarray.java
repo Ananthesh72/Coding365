@@ -2,10 +2,10 @@ public class MaxProductSubarray {
 
     public static void main(String[] args) {
 
-        int arr [] ={-1,-9,1,0,10,10,-1,4};
+        // int arr [] ={-1,-9,1,0,10,10,-1,4};
+        int arr [] ={2, -3, 4, -2};
         MaxProductSubarray obj = new MaxProductSubarray();
         System.out.println(obj.maxProduct(arr));
-
     }
 
 
