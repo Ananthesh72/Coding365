@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class twoclosestring_1657 {
+public class Leetcode_1657 {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class RegularExpression_10 {
+public class Leetcode_10 {
     public static void main(String[] args) {
         
 
@@ -22,10 +22,6 @@ public class RegularExpression_10 {
             return true;
         }
 
-        int i =0;
-        int j=0;
-
-        while
         
         return false;
     }

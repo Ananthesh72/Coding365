@@ -1,6 +1,6 @@
 import java.util.*;
-public class threesumclosest {
-    public int threeSumClosest(int[] nums, int target) {
+public class Leetcode_16 {
+    public int Leetcode_16(int[] nums, int target) {
         Arrays.sort(nums);
         int closesum = nums[0] + nums[1] + nums[2];
         for(int i=0;i<nums.length-2;i++){
@@ -25,9 +25,9 @@ public class threesumclosest {
     }
 
     public static void main(String[] args) {
-        threesumclosest obj = new threesumclosest();
+        Leetcode_16 obj = new Leetcode_16();
         int[] nums = {-1,2,1,-4};
         int target = 1;
-        System.out.println(obj.threeSumClosest(nums, target)); // Output: 2
+        System.out.println(obj.Leetcode_16(nums, target)); // Output: 2
     }
 }

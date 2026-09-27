@@ -1,6 +1,6 @@
-package Leetcode_75;
+
 import java.util.*;
-public class Number_of_Subsequences_1498 {
+public class Leetcode_1498 {
     public static void main(String[] args) {
         int[] nums = {3, 5, 6, 7};
         int target = 9;

@@ -1,7 +1,6 @@
-package Leetcode;
 // Leetcode Problem 1071
 // Given two strings str1 and str2 of the same length, the string of the same length is called the greatest common divisor of str1 and str2 if it can be obtained by concatenating str1 some number of times.
-public class gcdostrings {
+public class Leetcode_1071 {
     public static void main(String[] args) {
         String s1 = "LEET";
         String s2 = "LEET";

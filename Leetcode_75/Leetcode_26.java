@@ -1,8 +1,5 @@
-package GitLeetcode.Coding365.Leetcode_75;
 
-import java.util.Arrays;
-
-public class rvmduplicsortedarray_26 {
+public class Leetcode_26 {
     public static void main(String[] args) {
 
         int[] nums = { 0,0,1,1,1,2,2,3,3,4 };

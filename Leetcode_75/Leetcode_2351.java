@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class Probelm_2351{
+public class Leetcode_2351{
 
     public static void main(String[] args) {
         String str ="abccbaacz";

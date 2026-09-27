@@ -1,5 +1,5 @@
-package Leetcode_75;
-public class Merge_Two_Sorted_21 {
+
+public class Leetcode_21 {
 
 	// Definition for singly-linked list.
 	public static class ListNode {

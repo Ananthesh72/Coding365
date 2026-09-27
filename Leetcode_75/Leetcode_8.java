@@ -1,5 +1,5 @@
 // 8. String to Integer (atoi)
-public class atoi_8 {
+public class Leetcode_8 {
     public static int myAtoi(String s) {
         s = s.strip();
         if (s.isEmpty()) {

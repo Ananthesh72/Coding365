@@ -1,6 +1,5 @@
-package GitLeetcode.Coding365.Leetcode_75;
 
-public class nextPermutation_31 {
+public class Leetcode_31 {
     public static void main(String[] args) {
 
         int[] nums = { 2, 4, 3, 1 };

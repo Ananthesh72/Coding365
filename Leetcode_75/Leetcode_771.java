@@ -1,6 +1,5 @@
-import java.util.HashSet;
-import java.util.Arrays;
-public class Probelm_771 {
+
+public class Leetcode_771 {
 
     // Jewels and Stones
     public static void main(String[] args) {

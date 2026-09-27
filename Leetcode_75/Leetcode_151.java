@@ -1,4 +1,4 @@
-public class reverseinwords_151{
+public class Leetcode_151{
     public static void main(String[] args) {
         
         String s1 = "Hello World";

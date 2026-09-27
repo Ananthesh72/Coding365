@@ -1,7 +1,7 @@
-package Leetcode;
+
 import java.util.HashMap;
 //1679. Max Number of K-Sum Pairs
-public class MaxmunofK {
+public class Leetcode_1679 {
     public static int maxOperations(int[] nums, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();
         int count = 0;

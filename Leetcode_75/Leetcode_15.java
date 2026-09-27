@@ -1,10 +1,9 @@
-package GitLeetcode.Coding365.Leetcode_75;
 
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class threesum_15 {
+public class Leetcode_15 {
 
     public static void main(String[] args) {
 

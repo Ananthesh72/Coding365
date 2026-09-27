@@ -1,9 +1,8 @@
-package Leetcode;
 
 import java.util.HashMap;
 import java.util.HashSet;
 
-public class uniqueum_1207{
+public class Leetcode_1207{
 
 
     public static boolean uniqueOccurrences(int[] arr) {

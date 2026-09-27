@@ -1,5 +1,4 @@
-package Leetcode;
-class vowelsfinder {
+class Leetcode_1456 {
     public int maxVowels(String s, int k) {
         String vowels = "aeiou";
         int maxVowels = 0, currentVowels = 0;
@@ -23,7 +22,7 @@ class vowelsfinder {
         return maxVowels;
     }
     public static void main(String[] args){
-        vowelsfinder obj= new vowelsfinder();
+        Leetcode_1456 obj= new Leetcode_1456();
         System.out.println(obj.maxVowels("aeiou",3));
     }
 }

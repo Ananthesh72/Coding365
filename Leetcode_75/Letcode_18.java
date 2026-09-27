@@ -1,5 +1,5 @@
 import java.util.*;
-public class fourSum {
+public class Letcode_18 {
     public static void main(String[] args) {
         int[] nums = {1, 0, -1, 0, -2, 2};
         int target = 0;

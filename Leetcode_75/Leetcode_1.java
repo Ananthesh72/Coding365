@@ -1,9 +1,8 @@
-package GitLeetcode.Coding365.Leetcode_75;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class twosum_1 {
+public class Leetcode_1 {
     public static void main(String[] args) {
         
 

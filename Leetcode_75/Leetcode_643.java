@@ -1,5 +1,5 @@
 // LeetCode 643. Maximum Average Subarray I
-public class findMaxAvg_643 {
+public class Leetcode_643 {
     public double findMaxAverage(int[] nums, int k) {
         int sum = 0;
         
@@ -16,7 +16,7 @@ public class findMaxAvg_643 {
         return (double) maxSum / k; 
     }
     public static void main(String[] args) {
-        findMaxAvg_643 obj = new findMaxAvg_643();
+        Leetcode_643 obj = new Leetcode_643();
         int[] nums = {1, 12, -5, -6, 50, 3};
         int k = 4;
         System.out.println(obj.findMaxAverage(nums, k)); // Output: 12.75

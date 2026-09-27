@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class sample {
+public class Leetcode_2352 {
     public int equalPairs(int[][] grid) {
         int n = grid.length;
         Map<String, Integer> rowMap = new HashMap<>();
@@ -28,7 +28,7 @@ public class sample {
         return count;
     }
     public static void main(String[] args) {
-        sample obj = new sample();
+        Leetcode_2352 obj = new Leetcode_2352();
         int[][] grid = {
             {1, 2, 3},
             {2, 3, 1},

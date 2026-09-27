@@ -1,7 +1,7 @@
 
-public class climbing_stairs_70 {
+public class Leetcode_70 {
 
-    public static int climb_starirs(int n){
+    public int climb_starirs(int n){
 
         if(n<=2){
             return n;
@@ -19,7 +19,7 @@ public class climbing_stairs_70 {
     }
     public static void main(String[] args) {
         int n=5;
-        climbing_stairs_70 cs = new climbing_stairs_70();
+        Leetcode_70 cs = new Leetcode_70();
         System.out.println(cs.climb_starirs(n));
 
     }

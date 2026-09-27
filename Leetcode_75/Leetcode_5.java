@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class longestpalidromicsubstr_5{
+public class Leetcode_5{
 
     public static void main(String[] args) {
 

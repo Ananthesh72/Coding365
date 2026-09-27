@@ -1,5 +1,5 @@
-package Leetcode;
-public class removingstars_2390{
+
+public class Leetcode_2390{
 
     public static String removeStars(String str){
         StringBuilder result = new StringBuilder();

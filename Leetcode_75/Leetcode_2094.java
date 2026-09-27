@@ -1,7 +1,7 @@
-package Leetcode_75;
+
 import java.util.*;
 
-public class findEvenNumbers_2094 {
+public class Leetcode_2094 {
 
     public int [] findEvenNumbers(int[] digits) {
         int [] countdigits = new int[10];
@@ -33,7 +33,7 @@ public class findEvenNumbers_2094 {
     }
 
     public static void main(String[] args) {
-        findEvenNumbers_2094 obj = new findEvenNumbers_2094();
+        Leetcode_2094 obj = new Leetcode_2094();
         int [] nums={2,1,3,0};
         System.out.println(obj.findEvenNumbers(nums));
     }
