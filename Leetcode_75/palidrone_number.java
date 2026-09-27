@@ -1,4 +1,3 @@
-package GitLeetcode.Coding365.Leetcode_75;
 
 public class palidrone_number {
     public static void main(String[] args) {

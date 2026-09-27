@@ -1,7 +1,4 @@
 
-
-import org.w3c.dom.NodeList;
-
 /*swaps Node in pairs
 I/P :- Head = [1,2,3,4];
 O/P :- Head = [2,1,4,3];
