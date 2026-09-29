@@ -1,22 +1,38 @@
+public class Leetcode_5 {
 
-public class Leetcode_5{
+    public static String longestPalindrome(String s) {
+        if (s == null || s.length() < 1) return "";
+
+        int start = 0;
+        int maxLen = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            int len1 = expandAroundCenter(s, i, i);
+
+            int len2 = expandAroundCenter(s, i, i + 1);
+
+            int currentMax = Math.max(len1, len2);
+
+            if (currentMax > maxLen) {
+                maxLen = currentMax;
+                start = i - (currentMax - 1) / 2;
+            }
+        }
+
+        return s.substring(start, start + maxLen);
+    }
+
+    private static int expandAroundCenter(String s, int left, int right) {
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            left--;
+            right++;
+        }
+        return right - left - 1;
+    }
 
     public static void main(String[] args) {
-
-
         String s = "babad";
-        int l=0;
-        int r= s.length() -1;
-        int pali_chk =0;
-
-        while( r >= l){
-            if(s.charAt(l) == s.charAt(r)){
-                pali_chk++;
-            }
-            l++;
-            r--;
-        }
-        System.out.println(s.substring(0,pali_chk));
-        
+        System.out.println("Longest Palindromic Substring: " + longestPalindrome(s));
+        // Output: "bab" (or "aba", both are valid length 3)
     }
 }

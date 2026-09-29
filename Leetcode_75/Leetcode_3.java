@@ -2,36 +2,38 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Leetcode_3 {
-    
+
     public static void main(String[] args) {
 
-        String str ="pwwkew";
+        String str = "abcabcbb";
+        // String str = "bbbbb";
+        // String str = "pwwkew";
 
-        int i =lengthOfLongestSubstring(str);
+        int i = lengthOfLongestSubstring(str);
         System.out.println(i);
     }
 
     public static int lengthOfLongestSubstring(String s) {
 
-        Map<Character, Integer> lastSeen = new HashMap<>();
+        int count = 0;
+        int l = 0;
 
-    int left = 0;
-    int longest = 0;
+        Map<Character, Integer> map = new HashMap<>();
 
-    for (int right = 0; right < s.length(); right++) {
-        char c = s.charAt(right);
+        for (int r = 0; r < s.length(); r++) {
 
-        if (lastSeen.containsKey(c)) {
-            left = Math.max(left, lastSeen.get(c) + 1);
+            char word = s.charAt(r);
+
+            if (map.containsKey(word)) {
+                l = Math.max(l, map.get(word) + 1);
+            }
+
+            map.put(word, r);
+            count = Math.max(count, r - l + 1);
+            System.out.println(count);
+            
         }
-
-        lastSeen.put(c, right);
-        longest = Math.max(longest, right - left + 1);
-
-        System.out.println(lastSeen);
-    }
-
-    return longest;
+        return count;
     }
 
 }
