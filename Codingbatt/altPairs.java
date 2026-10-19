@@ -10,7 +10,7 @@ altPairs("CodingHorror") → "Congrr"*/
 public class  altPairs {
    public static void main(String[] args) {
       String str="CodingHorror";
-     String result = altPairs_(str.endsWith(str));
+     String result = altPairs(str.endsWith(str));
    //   String result = altPairs_(str.startsWith(str));
      System.out.println(result);
    }

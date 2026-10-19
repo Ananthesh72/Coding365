@@ -5,7 +5,7 @@ public class Leetcode_5 {
 
         int start = 0;
         int maxLen = 0;
-
+ 
         for (int i = 0; i < s.length(); i++) {
             int len1 = expandAroundCenter(s, i, i);
 

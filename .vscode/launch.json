@@ -1,0 +1,630 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "biggerTwo",
+            "request": "launch",
+            "mainClass": "Array1.biggerTwo",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "commonEnd",
+            "request": "launch",
+            "mainClass": "Array1.commonEnd",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "firstLast6",
+            "request": "launch",
+            "mainClass": "Array1.firstLast6",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "fix23",
+            "request": "launch",
+            "mainClass": "Array1.fix23",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "frontPiece",
+            "request": "launch",
+            "mainClass": "Array1.frontPiece",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "has23",
+            "request": "launch",
+            "mainClass": "Array1.has23",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "make2",
+            "request": "launch",
+            "mainClass": "Array1.make2",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "makeLast",
+            "request": "launch",
+            "mainClass": "Array1.makeLast",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "makeMiddle",
+            "request": "launch",
+            "mainClass": "Array1.makeMiddle",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "maxEnd3",
+            "request": "launch",
+            "mainClass": "Array1.maxEnd3",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "maxTriple",
+            "request": "launch",
+            "mainClass": "Array1.maxTriple",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "midThree",
+            "request": "launch",
+            "mainClass": "Array1.midThree",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "reverse3",
+            "request": "launch",
+            "mainClass": "Array1.reverse3",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "sameFirstLast",
+            "request": "launch",
+            "mainClass": "Array1.sameFirstLast",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "start1",
+            "request": "launch",
+            "mainClass": "Array1.start1",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "sum3",
+            "request": "launch",
+            "mainClass": "Array1.sum3",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_1",
+            "request": "launch",
+            "mainClass": "Leetcode_1",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_10",
+            "request": "launch",
+            "mainClass": "Leetcode_10",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_1071",
+            "request": "launch",
+            "mainClass": "Leetcode_1071",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_1207",
+            "request": "launch",
+            "mainClass": "Leetcode_1207",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_1456",
+            "request": "launch",
+            "mainClass": "Leetcode_1456",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_1498",
+            "request": "launch",
+            "mainClass": "Leetcode_1498",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_15",
+            "request": "launch",
+            "mainClass": "Leetcode_15",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_151",
+            "request": "launch",
+            "mainClass": "Leetcode_151",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_16",
+            "request": "launch",
+            "mainClass": "Leetcode_16",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_1657",
+            "request": "launch",
+            "mainClass": "Leetcode_1657",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_1679",
+            "request": "launch",
+            "mainClass": "Leetcode_1679",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_2094",
+            "request": "launch",
+            "mainClass": "Leetcode_2094",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_2139",
+            "request": "launch",
+            "mainClass": "Leetcode_2139",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_2210",
+            "request": "launch",
+            "mainClass": "Leetcode_2210",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_2351",
+            "request": "launch",
+            "mainClass": "Leetcode_2351",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_2352",
+            "request": "launch",
+            "mainClass": "Leetcode_2352",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_2390",
+            "request": "launch",
+            "mainClass": "Leetcode_2390",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_26",
+            "request": "launch",
+            "mainClass": "Leetcode_26",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_283",
+            "request": "launch",
+            "mainClass": "Leetcode_283",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_3",
+            "request": "launch",
+            "mainClass": "Leetcode_3",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_31",
+            "request": "launch",
+            "mainClass": "Leetcode_31",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_3727",
+            "request": "launch",
+            "mainClass": "Leetcode_3727",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_5",
+            "request": "launch",
+            "mainClass": "Leetcode_5",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_643",
+            "request": "launch",
+            "mainClass": "Leetcode_643",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_68",
+            "request": "launch",
+            "mainClass": "Leetcode_68",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_70",
+            "request": "launch",
+            "mainClass": "Leetcode_70",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_771",
+            "request": "launch",
+            "mainClass": "Leetcode_771",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_8",
+            "request": "launch",
+            "mainClass": "Leetcode_8",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_88",
+            "request": "launch",
+            "mainClass": "Leetcode_88",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Letcode_18",
+            "request": "launch",
+            "mainClass": "Letcode_18",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Map1",
+            "request": "launch",
+            "mainClass": "Maps.Map1",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "HelloName",
+            "request": "launch",
+            "mainClass": "String1.HelloName",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "Startword",
+            "request": "launch",
+            "mainClass": "String1.Startword",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "atFirst",
+            "request": "launch",
+            "mainClass": "String1.atFirst",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "comboString",
+            "request": "launch",
+            "mainClass": "String1.comboString",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "conCat",
+            "request": "launch",
+            "mainClass": "String1.conCat",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "deFront",
+            "request": "launch",
+            "mainClass": "String1.deFront",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "endsLy",
+            "request": "launch",
+            "mainClass": "String1.endsLy",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "extraEnd",
+            "request": "launch",
+            "mainClass": "String1.extraEnd",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "extraFront",
+            "request": "launch",
+            "mainClass": "String1.extraFront",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "firstTwo",
+            "request": "launch",
+            "mainClass": "String1.firstTwo",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "firsthalf",
+            "request": "launch",
+            "mainClass": "String1.firsthalf",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "frontAgain",
+            "request": "launch",
+            "mainClass": "String1.frontAgain",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "hasBad",
+            "request": "launch",
+            "mainClass": "String1.hasBad",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "lastChars",
+            "request": "launch",
+            "mainClass": "String1.lastChars",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "lastTwo",
+            "request": "launch",
+            "mainClass": "String1.lastTwo",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "left2",
+            "request": "launch",
+            "mainClass": "String1.left2",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "makeAbba",
+            "request": "launch",
+            "mainClass": "String1.makeAbba",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "makeOutWord",
+            "request": "launch",
+            "mainClass": "String1.makeOutWord",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "makeTags",
+            "request": "launch",
+            "mainClass": "String1.makeTags",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "middleThree",
+            "request": "launch",
+            "mainClass": "String1.middleThree",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "middleTwo",
+            "request": "launch",
+            "mainClass": "String1.middleTwo",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "minCat",
+            "request": "launch",
+            "mainClass": "String1.minCat",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "nTwice",
+            "request": "launch",
+            "mainClass": "String1.nTwice",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "nonStart",
+            "request": "launch",
+            "mainClass": "String1.nonStart",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "right2",
+            "request": "launch",
+            "mainClass": "String1.right2",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "seeColor",
+            "request": "launch",
+            "mainClass": "String1.seeColor",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "theEnd",
+            "request": "launch",
+            "mainClass": "String1.theEnd",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "twoChar",
+            "request": "launch",
+            "mainClass": "String1.twoChar",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "withouEnd2",
+            "request": "launch",
+            "mainClass": "String1.withouEnd2",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "without2",
+            "request": "launch",
+            "mainClass": "String1.without2",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "withoutEnd",
+            "request": "launch",
+            "mainClass": "String1.withoutEnd",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "withoutX",
+            "request": "launch",
+            "mainClass": "String1.withoutX",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "withoutX2",
+            "request": "launch",
+            "mainClass": "String1.withoutX2",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "SwapnodeinPairs",
+            "request": "launch",
+            "mainClass": "SwapnodeinPairs",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "altPairs",
+            "request": "launch",
+            "mainClass": "altPairs",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "arrayFront9",
+            "request": "launch",
+            "mainClass": "arrayFront9",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "detectcapital",
+            "request": "launch",
+            "mainClass": "detectcapital",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "makeAbba(1)",
+            "request": "launch",
+            "mainClass": "makeAbba",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "makeTags(1)",
+            "request": "launch",
+            "mainClass": "makeTags",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "palidrone_number",
+            "request": "launch",
+            "mainClass": "palidrone_number",
+            "projectName": "Coding365_f198c59f"
+        },
+        {
+            "type": "java",
+            "name": "stringYak",
+            "request": "launch",
+            "mainClass": "stringYak",
+            "projectName": "Coding365_f198c59f"
+        }
+    ]
+}
