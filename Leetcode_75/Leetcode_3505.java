@@ -109,7 +109,7 @@ public class Leetcode_3505 {
         }
     }
 
-    public static long minOperations(int[] nums, int x, int k) {
+    public long minOperations(int[] nums, int x, int k) {
 
         int n = nums.length;
 
